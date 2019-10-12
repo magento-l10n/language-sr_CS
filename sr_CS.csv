@@ -1,4 +1,4 @@
-All,Sve
+All,sve
 None,Ništa
 "Allowed Scopes","Dozvoljena stanja"
 "You need more permissions to delete this item(s): %1.","Potrebno vam je više dozvola da obrišete ovaj artikal(artikle): %1."
@@ -1100,6 +1100,8 @@ Header,Zaglavlje
 "Make sure that dynamic blocks rotator does not reference the dynamic block itself.","Proverite da rotator dinamičnog bloka ne navodi dinmični blok."
 "Cart Price Rule Related","Pravila Cena Povezane Korpe"
 "Catalog Price Rule Related","Pravila Cena Povezane Kategorije"
+"All Segments","Svi Segmenti"
+"Customer Segment","Korisnički Segment"
 "Allowed Credit Card Types","Dozvoljene vrste kreditnih kartica"
 "Add Rule","Dodati pravilo"
 "Braintree Settlement Report","Podešavanje izveštaja Braintree"
@@ -1485,6 +1487,7 @@ Categories,Kategorije
 "Invalid attribute %1","Nevažeći atribut %1"
 Grid,Mreža
 List,Lista
+All,Sve
 "Bad controller interface for showing product","Loš kontroler interfejsa za prikazivanje proizvoda"
 "Product is not loaded","Proizvod nije učitan"
 "Make sure the To Date is later than or the same as the From Date.","Uverite se da je do datum nakon ili isti kao i od datuma."
@@ -1706,6 +1709,32 @@ Allow,Dozvoli
 "%name,","%naziv,"
 "When you sign in to your account, you will be able to:","Kada se prijavite na svoj nalog, moći ćete da:"
 "This is a required field.","Ovo polje je neophodno."
+"Page not found.","Stranica nije pronađena."
+"Thanks for contacting us with your comments and questions. We'll respond to you very soon.","Hvala što ste nas kontaktirali ostavljajući komentar ili pitanje, Uskoro ćemo Vam odgovoriti."
+"An error occurred while processing your form. Please try again later.","Došlo je do greške prilikom procesiranja forme. Molimo pokušajte ponovo kasnije."
+"Name is missing","Nedostaje ime"
+"Comment is missing","Nedostaje komentar"
+"Invalid email address","Nepravilna e-mail adresa"
+"Write Us","Pišite Nam"
+"Jot us a note and we’ll get back to you as quickly as possible.","Ostavite nam poruku i javićemo vam se što je pre moguće."
+"Phone Number","Broj telefona"
+"What’s on your mind?","Šta Vam je na umu?"
+"Contact Form","Kontakt forma"
+"Contacts Section","Deo sa kontaktima"
+Contacts,Kontakti
+"Contact Us","Kontaktirajte nas"
+"Enable Contact Us","Omogućeno je da nas kontaktirate"
+"Email Options","Email Opcije"
+"Send Emails To","Pošalji Email na"
+"Email Sender","Pošiljalac Mejla"
+"Email Template","Šablon Mejla"
+"We can't process your request right now. Sorry, that's all we know.","Sada ne možemo procesirati Vaš zahtev. Izvinjavamo se, to je sve što znamo za sada."
+"Name: %name","Ime: %name"
+"Phone Number: %telephone","Broj Telefona: %telephone"
+"Comment: %comment","Komentar: %comment"
+"Enter the Name and try again.","Unesite Ime i pokušajte ponovo."
+"Enter the comment and try again.","Upišite komentar i pokušajte ponovo."
+"The email address is invalid. Verify the email address and try again.","Mejl adresa je neispravna. Proverite mejl adresu i pokušajte ponovo."
 "We use cookies to make your experience better.","Mi koristimo kolačiće kako bi vaše iskustvo bilo bolje."
 "To comply with the new e-Privacy directive, we need to ask for your consent to set the cookies.","Da bi smo uskladili novu direktivu o e-privatnosti, moramo zatražiti vašu saglasnost da podesite kolačiće."
 "<a href=""%1"">Learn more</a>.","<a href=""%1"">Naučiti više</a>."
@@ -1784,6 +1813,7 @@ Complete,Završeno
 "Your Shipment #%shipment_id for Order #%order_id","Isporuka za #%shipment_id za porudžbinu #%order_id"
 "Update to your %store_name shipment","Ažurirano na Vašoj %store_name pošiljci"
 "We couldn't write file ""%1"" to ""%2"" with the ""%3"" driver.","Ne možemo upisati datoteku ""%1"" u ""%2"" sa ""%3"" upravljačkim programom."
+"Admin is a required field in each row","Admin je zatražio polje u svakom redu"
 Menu,Meni
 Account,Nalog
 "Please put your store into maintenance mode and redeploy static files after changing strategy","Molim staviti vašu prodavnicu u režim održavanja i ponovo rasporediti statične datoteke nakon promene strategije"
