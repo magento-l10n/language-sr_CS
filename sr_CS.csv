@@ -1,4 +1,4 @@
-All,sve
+All,Sve
 None,Ništa
 "Allowed Scopes","Dozvoljena stanja"
 "You need more permissions to delete this item(s): %1.","Potrebno vam je više dozvola da obrišete ovaj artikal(artikle): %1."
@@ -1154,6 +1154,7 @@ expires,ističe
 "Verify for Specific Countries","Proveri za određene države"
 "Dynamic Descriptors","Dinamički opisi"
 Phone,Telefon
+"Last name is too long.","Prezime je predugačko."
 "Apply filters in order to get results. Only first 100 records will be displayed in the grid, you will be able to download full version of the report in .csv format.","Primenite filtere da biste dobili rezultate. Samo prvih 100 zapisa će biti prikazano u tabeli, a vama će biti omogućeno da preuzmete pun izveštaj u .csv formatu."
 Select...,Izabrati...
 "Transaction Type","Vrsta transakcije"
@@ -1487,7 +1488,6 @@ Categories,Kategorije
 "Invalid attribute %1","Nevažeći atribut %1"
 Grid,Mreža
 List,Lista
-All,Sve
 "Bad controller interface for showing product","Loš kontroler interfejsa za prikazivanje proizvoda"
 "Product is not loaded","Proizvod nije učitan"
 "Make sure the To Date is later than or the same as the From Date.","Uverite se da je do datum nakon ili isti kao i od datuma."
@@ -1705,6 +1705,8 @@ Allow,Dozvoli
 "Delete Folder","Izbrišite fasciklu"
 "Delete File","Izbriši datoteku"
 "Email Address:","E-mail adresa:"
+"First Name:",Ime:
+"Last Name:",Prezime:
 "This account is locked.","Vaš nalog je zaključan."
 "%name,","%naziv,"
 "When you sign in to your account, you will be able to:","Kada se prijavite na svoj nalog, moći ćete da:"
@@ -1754,7 +1756,10 @@ Password:,Lozinka:
 "Check the status of orders","Proverite status porudžbine"
 "View past orders","Vidi sve porudžbine"
 "Are you sure you want to delete this address?","Jeste li sigurni da želite da obrišete ovu adresu?"
+"Billing Lastname","Prezime za Naplatu"
 "Account Dashboard","Kontrolna tabla"
+"Please enter the last name.","Molimo upišite prezime."
+"Please enter a last name.","Molimo upišite prezime."
 "Please correct this email address: ""%1"".","Molim vas da ispravite ovu e-adresu: „%1”."
 "Order Status","Status porudžbine"
 "Grand Total","Ukupna vrednost"
@@ -1782,6 +1787,8 @@ Wishlist,"Lista želja"
 "Copy to Wish List","Kopiraj u listu želja"
 "Move Selected to Wish List","Premestite izabrane artikle u listu želja"
 "Copy Selected to Wish List","Kopiraj izabrane artikle u listu želja"
+"Customer First Name","Ime kupca"
+"Customer Last Name","Prezime kupca"
 "Please enter a valid credit card verification number.","Molimo unesite važeći broj za verifikaciju kreditne kartice."
 "Please enter a valid credit card number.","Molimo unesite važeći broj kreditne kartice."
 "Sorry, something went wrong.","Izvinite, došlo je do greške."
