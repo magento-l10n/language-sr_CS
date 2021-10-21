@@ -617,7 +617,6 @@ Minute,Minut
 "This is only a demo store. You can browse and place orders, but nothing will be processed.","Ovo je samo demo prodavnica. Možete da pregledate i postavite naredbe, ali ništa neće biti obrađen."
 "Report an Issue","Prijavite problem"
 "Stores Configuration","Konfiguracija prodavnice"
-"Please confirm scope switching. All data that hasn't been saved will be lost.","Molimo vas potvrdite promenu opsega. Svi podaci nisu dačuvani i biće obrisani."
 "Additional Cache Management","Dodatno upravljanje kešom"
 "Flush Catalog Images Cache","Obriši keš kataloga slika"
 "Pregenerated product images files","Datoteke slika proizvoda pregenerisane"
@@ -649,6 +648,7 @@ selected,izabrano
 Loading...,Učitavanje...
 "User Agent Rules","Pravila korisničkih agenata"
 "We could not detect a size.","Nismo mogli otkriti veličinu."
+"Please confirm scope switching. All data that hasn't been saved will be lost.","Molimo vas potvrdite promenu opsega. Svi podaci nisu dačuvani i biće obrisani."
 "Allow everything","Dozvoli sve"
 "Global Search","Globalna pretraga"
 "SEO & Search","SEO & pretrage"
@@ -1479,7 +1479,6 @@ Show,Prikaži
 "Change status","Promena statusa"
 Allow,Dozvoli
 "Store View:","Prikaz prodavnice:"
-"Invalid method: %1","Neispravna metoda: %1"
 State/Province,Region
 "Zip/Postal Code","Poštanski broj"
 "My Cart (1 item)","Korpa (1 proizvod)"
@@ -1525,6 +1524,7 @@ Checkout,Plaćanje
 "The shipping information was unable to be saved. Verify the input data and try again.","Podaci o otpremi nisu uspeli da se sačuvaju. Proverite ulazne podatke i pokušajte ponovo."
 "Carrier with such method not found: %1, %2","Nosač sa tom metodom nije pronađen: %1, %2"
 "The shipping method is missing. Select the shipping method and try again.","Nedostaje način dostave. Odaberite način dostave i pokušajte ponovo."
+"Invalid method: %1","Neispravna metoda: %1"
 "Update Shopping Cart","Ažuriranje korpe sa artiklima"
 "Proceed to Checkout","Nastavi ka plaćanju"
 "My billing and shipping address are the same","Moja adresa za dostavu i plaćanje su iste"
@@ -2028,7 +2028,6 @@ Date,Datum
 "Local Time","Lokalno vreme"
 "See our Shipping Policy","Pogledajte našu politiku isporuke"
 "Shipping Settings Section","Odeljak za postavke isporuke"
-"Shipping Methods Section","Odeljak za postavke isporuke"
 "Shipping Settings","Postavke isporuke"
 Origin,Poreklo
 "Shipping Policy","Politika isporuke"
