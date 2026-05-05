@@ -1,10 +1,23 @@
 All,Sve
 None,Ništa
 "Allowed Scopes","Dozvoljena stanja"
+"You need more permissions to delete this item(s): %1.","Potrebno vam je više dozvola da obrišete ovaj artikal(artikle): %1."
 "You need more permissions to apply some of the rule updates.","Potrebne su Vam dozvole višeg nivoa da primenite neku od pravila dopune."
+"Please assign this entity to a store view.","Molim dodelite ovaj entitet prikazu prodavnice."
+"You can create orders only in an active store.","Porudžbine možete praviti samo u aktivnoj prodavnici."
+"Please assign this item to a store view.","Molim dodelite ovaj artikal prikazu prodavnice."
+"You need more permissions to save this item.","Potrebne su Vam veće privilegije da snimite ovaj artikal."
+"You need more permissions to delete this item.","Potrebne su Vam veće privilegije da obrišete ovaj artikal."
+"You need more permissions to view this item.","Potrebne su Vam veće privilegije da prikažete ovaj artikal."
+"Please specify at least one website or one store group.","Molimo da navedete barem jedan websajt ili grupu prodavnica."
+"You need more permissions to set All Scopes to a Role.","Potrebne su Vam veće prvilegije da postavite Sve Oblasti u ovu Ulogu."
+"Incorrect website ID: %1","Neispravan websajt ID: %1"
 "You need more permissions to access website ""%1"".","Potrebne su Vam više dozvole da pristupite websajtu ""%1""."
+"Incorrect store ID: %1","Neispravan ID prodavnice: %1"
+"You need more permissions to save this setting.","Potrebne su Vam veće privilegije da snimite ovo podešavanje."
 "Role Scopes","Sve Oblasti"
 Custom,Izborno
+"You don't have permissions to save this item in scope of current store view. Please, switch to allowed store view","Nemate dozvolu da sačuvate ovaj artikal na trenutnom nivou prikaza prodavnice. Molimo vas, prebacite se na dozvoljeni prikaz prodavnice"
 "More permissions are needed to delete the ""%1"" item.","Potrebno je više dozvola da biste obrisali stavku ""%1”."
 "This entity needs to be assigned to a store view. Verify the entity assignment and try again.","Ovaj entitet mora biti dodeljen prikazu prodavnice. Proverite kome je dodeljen entitet i pokušajte ponovo."
 "Orders can only be completed in an active store. Verify the store and try again.","Porudžbine mogu biti izvršene samo u aktivnoj prodavnici. Proverite prodavnicu i pokušajte ponovo."
@@ -67,6 +80,7 @@ Severity,Ozbiljnost
 "Date Added","Datum Dodavanja"
 Message,Poruka
 Actions,Radnje
+"Close popup","Ugasite popup"
 "You have viewed and resolved all recent system notices. Please refresh the web page to clear the notice alert.","Pregledali ste i rešili sve nedavne sistemske notifikacije. Osvežite web stranicu da biste očistili obaveštenje."
 "Manage Shopping Cart","Ažuriranje korpe sa artiklima"
 "Create Order","Kreiranje narudžbine"
@@ -103,10 +117,19 @@ Configure,Podesi
 "You must buy at least %1 of these per purchase.","Možete kupiti najmanje %1 od ovih po narudžbi."
 "Specify the product's options.","Navedite opcije proizvoda."
 "Alert me when this item is available.","Upozori me kada ova stavka postane dostupna."
+"We can't find this customer.","Ne možemo pronaći ovog korisnika."
 "Shopping cart management is disabled for this customer.","Upravljanje kolicima za kupovinu je onemogućena za ovog kupca."
+"We can't find this store.","Ne možemo pronaći ovu prodavnicu."
 Customers,Kupci
 "Shopping Cart",Korpa
+"Sorry, something went wrong. You can find out more in the error log.","Izvini, nešto krenulo naopako. Više o grešci možete pronaći u evidenciji grešaka."
 "You do not have access to this.","Nemate pristup."
+"Ordered item id is not received.","Id poručenog artikla nije primljen."
+"Ordered item is not loaded.","Id poručenog artikla nije učitan."
+"Quote item id is not received.","Količina za Id artikla nije primljena."
+"Quote item is not loaded.","Količina za Id artikla nije učitana."
+"The wish list item id is not received.","Id artikla iz liste želja nije primljen."
+"The wish list item is not loaded.","Id artikla iz liste želja nije učitan."
 "An error has occurred. See error log for details.","Došlo je do greške. Pogledajte evidenciju grešaka za više detalja."
 "You cannot configure a product.","Nije moguće konfigurisati proizvod."
 "You removed the items.","Vi ste uklonili stavke."
@@ -137,6 +160,7 @@ Customers,Kupci
 "Yes, for Specified Customer Groups","Da, za navedenu grupu kupaca"
 "Yes, for Everyone","Da, za sve"
 No,Ne
+"The file is corrupt.","Datoteka je oštećena."
 "Please upload the file in .csv format.","Molimo vas da pošaljete datoteku u .csv formatu."
 "%1 item(s) need your attention.","%1 stavka(e) traže da obratite pažnju."
 "Apply Coupon Code","Primeni kod kupona"
@@ -189,6 +213,8 @@ File,Datoteka
 "The text of the link to the My Account &gt; Order by SKU page","Link za moj nalog &gt; Porudžbina po šifri"
 "Load a list of SKUs","Učitavanje liste šifri"
 "Order by SKU Template","Šablon porudžbina po šifri"
+"SKU not found in catalog.","SKU nije pronađen u katalogu."
+"This file needs to be in .csv format.","Fajl mora biti u .csv formatu."
 "This customer couldn't be found. Verify the customer and try again.","Ovaj korisnik nije pronađen. Verifikujte korisnika i probajte ponovo."
 "This store couldn't be found. Verify the store and try again.","Ova prodavnica nije pronađena. Proveri prodavnicu i pokušaj ponovo."
 "An error occurred. For details, see the error log.","Došlo je do greške. Za detalje, proverite izveštaj grešaka."
@@ -227,19 +253,29 @@ Uses,Upotrebljeno
 "Redirect URL","Preusmjeravanje URL"
 "Suggested Term","Predloženi termin"
 Yes,Da
+Synonym,Sinonim
 "RPC call failed, connection timed out after %time_out.","RPC poziv nije uspeo, veza je istekla nakon %time_out."
 "Message has been rejected: %1","Poruka je odbijena: %1"
 "Error while checking if topic is synchronous","Greška pri proveravi da li je tema sinhronizovana"
 "Subscription status","Status pretplate"
 "Sorry, there has been an error processing your request. Please try again later.","Izvinite, dogodila se greška pri obradi vašeg zahteva. Pokušajte ponovo kasnije."
+"Time value has an unsupported format","Vrednost za vreme sadrži nepodržani format"
 "Cron settings can't be saved","Podešavanje Kron-a ne može biti sačuvano"
 "There was an error save new configuration value.","Došlo je do greške pri snimanju novih konfiguracionih vrednosti."
+"Please select a vertical.","Molimo izabrati uspravno."
 "--Please Select--","--- Molimo odaberite ---"
+"Command was not found.","Komanda nije pronađena."
+"Input data must be string or convertible into string.","Ulazni podatak mora biti znak ili podatak koji se može pretvoriti u znak."
+"Input data must be non-empty string.","Ulazni podatak ne sme biti prazan niz znakova."
+"Not valid cipher method.","Neispravna metoda za šifriranja."
+"Encryption key can't be empty.","Ključ za šifriranje ne može biti prazan."
+"Source ""%1"" is not exist","Ulazni podatak ""%1"" ne postoji"
 "These arguments can't be empty ""%1""","Ovi argumenti ne mogu biti prazni ""%1"""
 "Cannot find predefined integration user!","Nije moguće pronaći korisnički definisane integracije!"
 "File is not ready yet.","Datoteka još uvek nije spremna."
 "Your Base URL has been changed and your reports are being updated. Advanced Reporting will be available once this change has been processed. Please try again later.","Tvoj osnovni URL je promenjen i izvještaji se ažuriraju. Više opcija za izveštavanje biće na raspolaganju kada ova promena bude obrađena. Pokušajte ponovo kasnije."
 "Failed to synchronize data to the Magento Business Intelligence service. ","Greška u sinhronizaciji podataka sa Magento poslovnim servisom inteligencije. "
+"<a href=""%1"">Retry Synchronization</a>","<a href=""%1"">Pokušaj ponovo sinhronizaciju</a>"
 TestMessage,"Test poruka"
 "Apps and Games","Aplikacije i igre"
 "Athletic/Sporting Goods","Sportski/sportske opreme"
@@ -251,6 +287,12 @@ Analytics,Analitika
 Configuration,Konfiguracija
 "Business Intelligence","Poslovna inteligencija"
 "BI Essentials","BI osnove"
+"This service provides a dynamic suite of reports with rich insights about your business.
+                Your reports can be accessed securely on a personalized dashboard outside of the admin panel by clicking on the
+                ""Go to Advanced Reporting"" link. </br> For more information, see our <a href=""https://magento.com/legal/terms/cloud-terms"">
+                terms and conditions</a>.","Ova usluga pruža dinamičan programski paket izveštavanja sa bogatim zapažanjem o vašem poslovanju.                 
+                Izveštaju se može pristupiti sigurno preko personalizovane stranice izvan admin panel tako što ćete kliknuti na vezu 
+                „Idi da više opcija za izveštavanje”. </br> Za više informacija, pogledajte naše <a href=""https://magento.com/legal/terms/cloud-terms""> termine i uslove.</a>."
 "Advanced Reporting Service","Napredna usluga izveštavanja"
 "Time of day to send data","Doba dana za slanje podataka"
 Industry,Industrija
@@ -327,6 +369,7 @@ Error,Greška
 "Dismiss All Completed Tasks","Odbaci sve dovršene zadatke"
 "Action Details - #","Detalji radnje- #"
 "Number of Records Affected","Broj zapisa koji je uticao na"
+"We can't find the role for the user you wanted.","Ne možemo pronaći ulogu za traženog korisnika."
 "Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.","Nešto je krenulo naopako za vreme sastavljanja liste dozvoljenih resursa. Više o greškama možete pogledati u evidenciji greški."
 "The role wasn't found for the user. Verify the role and try again.","Uloga za korisnika nije pronađena. Proverite ulogu i pokušajte ponovo."
 "You created the order.","Vi ste kreirali narudžbinu."
@@ -544,11 +587,13 @@ To,Do
 "Invalid export type supplied for grid export block","Nevažeći tip izvoza obezbeđen za izvoza bloka"
 Export,Izvezi
 "Please correct the column format and try again.","Ispravite oblik kolone i pokušajte ponovo."
+"Please select items.","Molim izaberite artikle."
 Submit,Pošalji
 "Unknown block type","Nepoznati tip bloka"
 "Please correct the tab configuration and try again. Tab Id should be not empty","Molim vas ispravite konfiguraciju kartice i pokušajte ponovo. Id kartice ne sme biti prazan"
 "Please correct the tab configuration and try again.","Ispravite konfiguraciju kartice i pokušajte ponovo."
 "You have logged out.","Odjavili ste se."
+"Specified cache type(s) don't exist: %1","Ove vrsta(e) keš memorije ne postoji: %1"
 "The image cache was cleaned.","Slika keša je obrisana."
 "An error occurred while clearing the image cache.","Pojavila se greška prilikom brisanje slika keša."
 "The JavaScript/CSS cache has been cleaned.","Keš JavaScript/CSS je obrisan."
@@ -616,6 +661,10 @@ System,Sistem
 YTD,"GODINA DO DATUMA"
 2YTD,"2 godine do datuma"
 "Authentication storage is incorrect.","Potvrda identiteta za skladište je neispravana."
+"You did not sign in correctly or your account is temporarily disabled.","Niste se pravilno prijavili ili je vaš nalog privremeno onemogućen."
+"Authentication error occurred.","Došlo je do greške pri potvrdi identiteta."
+"Admin session lifetime must be less than or equal to 31536000 seconds (one year)","Vreme trajanja sesije za admin-a mora biti manje ili jednako 31536000 sekundi (jedna godina)"
+"Admin session lifetime must be greater than or equal to 60 seconds","Vreme trajanja sesije za admin-a mora biti veća ili jednako 60 sekundi"
 Order,Porudžbina
 "Order #%1","Porudžbina %1 #"
 "Sorry, you need permissions to view this content.","Izvini, treba vam dozvola za prikazivanje ovog sadržaja."
@@ -657,6 +706,7 @@ Minute,Minut
 "To use this website you must first enable JavaScript in your browser.","Prvo morate da omogućite JavaScript u svom pregledaču da biste koristili ovu Web lokaciju."
 "This is only a demo store. You can browse and place orders, but nothing will be processed.","Ovo je samo demo prodavnica. Možete da pregledate i postavite naredbe, ali ništa neće biti obrađen."
 "Report an Issue","Prijavite problem"
+"Store View:","Prikaz prodavnice:"
 "Stores Configuration","Konfiguracija prodavnice"
 "Please confirm scope switching. All data that hasn't been saved will be lost.","Molimo vas potvrdite promenu opsega. Svi podaci nisu dačuvani i biće obrisani."
 "Additional Cache Management","Dodatno upravljanje kešom"
@@ -689,6 +739,7 @@ selected,izabrano
 "The information in this tab has been changed.","Informacije na ovoj kartici su promenjene."
 Loading...,Učitavanje...
 "We could not detect a size.","Nismo mogli otkriti veličinu."
+"We don't recognize or support this file extension type.","Ne možemo prepoznati ili pružiti podršku za ovaj tip datoteke."
 "Warning message","Poruka upozorenja"
 "This operation can take a long time","Ova operacija može potrajati dugo vremena"
 "Allow everything","Dozvoli sve"
@@ -715,6 +766,7 @@ Tools,Alati
 "Catalog Images Cache","Keš slika kataloga"
 "Flush Js/Css","Isprazni Js/Css"
 "Flush Static Files","Isprazni keš statičnih datoteka"
+"Web Setup Wizard","Čarobnjak za podešavanje Vebsajta"
 Currency,Valuta
 Communications,Komunikacije
 Services,Servisi
@@ -729,8 +781,12 @@ Advanced,Napredni
 "Sales Representative","Predstavnik prodaje"
 "Customer Support","Podrška za korisnike"
 Developer,Programеr
+"Enabled Template Path Hints for Storefront","Omogućena putanja šablona za oznake na izlogu"
+"Enabled Template Path Hints for Admin","Omogućena putanja šablona za oznake za admin-a"
+"Add Block Names to Hints","Dodavanje blok imena za oznake"
 "Template Settings","Podešavanja šablona"
 "Allow Symlinks","Dozvoli Symlinks"
+"Warning! Enabling this feature is not recommended on production environments because it represents a potential security risk.","Upozorenje! Omogućavanje ove funkcije se ne preporučuje u proizvodnim okruženjima jer predstavlja potencijalni rizik po bezbednost."
 "Minify Html","Smanji velićinu datoteke Html"
 "Minification is not applied in developer mode.","Smanjivanje datoteke se ne primenjuje u režimu razvoja."
 "Translate Inline","Prevedite sadržaj"
@@ -797,6 +853,7 @@ Security,Sigurnost
 "Enable Charts","Omogući grafikone"
 "Url Options","Opcije URL adrese"
 "Add Store Code to Urls","Dodati kod prodavnice za ove URL-ove"
+"<strong style=""color:red"">Warning!</strong> When using Store Code in URLs, in some cases system may not work properly if URLs without Store Codes are specified in the third party services (e.g. PayPal etc.).","<strong class=""colorRed"">Upozorenje!</strong> Kada koristite kod prodavnice u URL-u, u nekim slučajevima sistem možda neće pravilno radititi ako je URL definisan bez koda prodavnice u nekim uslugama (npr. PayPal...)."
 "Auto-redirect to Base URL","Auto - preusmeravanje na osnovu URL adrese"
 "Search Engine Optimization","Optimizacija programa za pretraživanje"
 "Use Web Server Rewrites","Koristi Web server za pisanje"
@@ -827,12 +884,15 @@ Security,Sigurnost
 "Validate HTTP_VIA","Proveri ispravnost HTTP_VIA"
 "Validate HTTP_X_FORWARDED_FOR","Proveri ispravnost HTTP_X_FORWARDED_FOR"
 "Validate HTTP_USER_AGENT","Proveri ispravnost HTTP_USER_AGENT"
+"Use SID on Storefront","Koristi SID na izlogu"
+"Allows customers to stay logged in when switching between different stores.","Omogućava klijentima da ostanu prijavljeni kad prelaze između različitih prodavnica."
 "Cache Type","Tip keširanja"
 Description,Opis
 Tags,Oznake
 "<h1 class=""page-heading"">404 Error</h1><p>Page not found.</p>","<h1 class=""page-heading"">404 greška</h1><p>Stranica nije pronađena.</p>"
 "Community Edition","Zajedničko izdanje"
 "Default Theme","Podrazumevane teme"
+"If no value is specified, the system default is used. The system default may be modified by third party extensions.","Ako ni jedna vrednost nije definisan, koristi se podrazumevana. Podrazumevana sistemska može biti modifikovana preko third-party ekstenzija."
 "Applied Theme","Primenjena tema"
 "Design Rule","Pravilo dizajna"
 "User Agent Rules","Pravila korisničkih agenata"
@@ -846,6 +906,7 @@ Pagination,"Numerisanje stranica"
 "Alternative text for the next pages link in the pagination menu. If empty, default arrow image is used.","Alternativni tekst za vezu ka sledećim stranicama u meniju numerisanja stranica. Ako je prazan, koristi podrazumevanu sliku strelicu."
 "Anchor Text for Next","Povežite tekst sa narednim"
 "Theme Name","Ime teme"
+"Please correct the tab configuration and try again. Tab Id should be not empry","Molim vas ispravite konfiguraciju tab-a i pokušajte ponovo. Tab Id ne sme biti prazan"
 "Add Block Class Type to Hints","Dodajte tip Block Class za pomoć"
 "When the adapter was changed, please flush Catalog Images Cache.","Kada je adapter promenjen, molimo ispraznite keš memoriju slika kataloga."
 "For Windows server only.","Samo za Windows server."
@@ -1584,7 +1645,6 @@ Show,Prikaži
 "Set Descending Direction","Postavi opadajući smer"
 "View as","Pregledi kao"
 "More Information","Više informacija"
-"We don't recognize or support this file extension type.","Ne možemo prepoznati ili pružiti podršku za ovaj tip datoteke."
 "Choose existing category.","Izabrati odgovarajuću kategoriju."
 "unselect all","poništi izabrane"
 "Use Canonical Link Meta Tag For Categories","Koristi Canonical Link Meta Tag za kategorije"
@@ -1639,7 +1699,6 @@ Deny,Zabrani
 "Indexed permissions for categories","Indeksirane dozvole za kategorije"
 "Catalog Product Permissions","Dozvole kataloga proizvoda"
 "Indexed permissions for products","Indeksirane dozvole za proizvode"
-"Store View:","Prikaz prodavnice:"
 "Invalid method: %1","Neispravna metoda: %1"
 State/Province,Region
 "Zip/Postal Code","Poštanski broj"
